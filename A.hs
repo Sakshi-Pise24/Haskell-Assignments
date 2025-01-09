@@ -107,7 +107,7 @@ null _  = False
 -- null2 xs = xs == []
 -- null3 xs = length xs == 0
 --
--- PLEASE ANSWER THE QUESTION HERE
+-- These two definitions are less efficient because they traverse whole list, whereas the pattern matching is more efficient because it traverses only once.
 
 -- Task A-4:
 --
